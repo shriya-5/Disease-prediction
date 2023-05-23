@@ -28,7 +28,7 @@ app = Flask(__name__)
 resnet50 = torchvision.models.resnet50(weights='ResNet50_Weights.DEFAULT')
 resnet50.fc = torch.nn.Linear(in_features=2048, out_features=3)
 
-resnet50.load_state_dict(torch.load('C:\\Users\\SHRIYA\\Documents\\DACC\\covid_classifier1.pt'))
+resnet50.load_state_dict(torch.load('covid_classifier.h5'))
 resnet50.eval()
 print('Model loaded. Check http://127.0.0.1:5000/')
 
