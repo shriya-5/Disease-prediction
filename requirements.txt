@@ -8,4 +8,4 @@ tensorflow==2.9.3
 tensorflow_intel==0.0.1
 torch==1.13.1
 torchvision==0.14.1
-Werkzeug==2.3.4
+Werkzeug==2.2.2
